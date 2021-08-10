@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55981CA426BC13EC004B2763 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 55981CA326BC13EC004B2763 /* README.md */; };
+		55981CA626BC16B1004B2763 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 55981CA526BC16B1004B2763 /* LICENSE */; };
+		55BD68C326AC77F000A4ECCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BD68C226AC77F000A4ECCE /* AppDelegate.m */; };
+		55BD68C626AC77F000A4ECCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BD68C526AC77F000A4ECCE /* ViewController.m */; };
+		55BD68C826AC77F100A4ECCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BD68C726AC77F100A4ECCE /* Assets.xcassets */; };
+		55BD68CB26AC77F100A4ECCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BD68C926AC77F100A4ECCE /* Main.storyboard */; };
+		55BD68CE26AC77F100A4ECCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BD68CD26AC77F100A4ECCE /* main.m */; };
+		55BD68D926AC77F100A4ECCE /* SandwichCrackMeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BD68D826AC77F100A4ECCE /* SandwichCrackMeSolutionTests.m */; };
+		55BD68E426AC77F100A4ECCE /* SandwichCrackMeSolutionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BD68E326AC77F100A4ECCE /* SandwichCrackMeSolutionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55BD68D526AC77F100A4ECCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55BD68B626AC77F000A4ECCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55BD68BD26AC77F000A4ECCE;
+			remoteInfo = JetesFirstCrackme;
+		};
+		55BD68E026AC77F100A4ECCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55BD68B626AC77F000A4ECCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55BD68BD26AC77F000A4ECCE;
+			remoteInfo = JetesFirstCrackme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55981CA326BC13EC004B2763 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		55981CA526BC16B1004B2763 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		55BD68BE26AC77F000A4ECCE /* SandwichCrackMeSolution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandwichCrackMeSolution.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BD68C126AC77F000A4ECCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55BD68C226AC77F000A4ECCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55BD68C426AC77F000A4ECCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55BD68C526AC77F000A4ECCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55BD68C726AC77F100A4ECCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55BD68CA26AC77F100A4ECCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55BD68CC26AC77F100A4ECCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55BD68CD26AC77F100A4ECCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55BD68CF26AC77F100A4ECCE /* SandwichCrackMeSolution.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SandwichCrackMeSolution.entitlements; sourceTree = "<group>"; };
+		55BD68D426AC77F100A4ECCE /* SandwichCrackMeSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandwichCrackMeSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BD68D826AC77F100A4ECCE /* SandwichCrackMeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandwichCrackMeSolutionTests.m; sourceTree = "<group>"; };
+		55BD68DA26AC77F100A4ECCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55BD68DF26AC77F100A4ECCE /* SandwichCrackMeSolutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandwichCrackMeSolutionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BD68E326AC77F100A4ECCE /* SandwichCrackMeSolutionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandwichCrackMeSolutionUITests.m; sourceTree = "<group>"; };
+		55BD68E526AC77F100A4ECCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55BD68BB26AC77F000A4ECCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BD68D126AC77F100A4ECCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BD68DC26AC77F100A4ECCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55BD68B526AC77F000A4ECCE = {
+			isa = PBXGroup;
+			children = (
+				55981CA526BC16B1004B2763 /* LICENSE */,
+				55981CA326BC13EC004B2763 /* README.md */,
+				55BD68C026AC77F000A4ECCE /* SandwichCrackMeSolution */,
+				55BD68D726AC77F100A4ECCE /* SandwichCrackMeSolutionTests */,
+				55BD68E226AC77F100A4ECCE /* SandwichCrackMeSolutionUITests */,
+				55BD68BF26AC77F000A4ECCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55BD68BF26AC77F000A4ECCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55BD68BE26AC77F000A4ECCE /* SandwichCrackMeSolution.app */,
+				55BD68D426AC77F100A4ECCE /* SandwichCrackMeSolutionTests.xctest */,
+				55BD68DF26AC77F100A4ECCE /* SandwichCrackMeSolutionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55BD68C026AC77F000A4ECCE /* SandwichCrackMeSolution */ = {
+			isa = PBXGroup;
+			children = (
+				55BD68C126AC77F000A4ECCE /* AppDelegate.h */,
+				55BD68C226AC77F000A4ECCE /* AppDelegate.m */,
+				55BD68C426AC77F000A4ECCE /* ViewController.h */,
+				55BD68C526AC77F000A4ECCE /* ViewController.m */,
+				55BD68C726AC77F100A4ECCE /* Assets.xcassets */,
+				55BD68C926AC77F100A4ECCE /* Main.storyboard */,
+				55BD68CC26AC77F100A4ECCE /* Info.plist */,
+				55BD68CD26AC77F100A4ECCE /* main.m */,
+				55BD68CF26AC77F100A4ECCE /* SandwichCrackMeSolution.entitlements */,
+			);
+			path = SandwichCrackMeSolution;
+			sourceTree = "<group>";
+		};
+		55BD68D726AC77F100A4ECCE /* SandwichCrackMeSolutionTests */ = {
+			isa = PBXGroup;
+			children = (
+				55BD68D826AC77F100A4ECCE /* SandwichCrackMeSolutionTests.m */,
+				55BD68DA26AC77F100A4ECCE /* Info.plist */,
+			);
+			path = SandwichCrackMeSolutionTests;
+			sourceTree = "<group>";
+		};
+		55BD68E226AC77F100A4ECCE /* SandwichCrackMeSolutionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55BD68E326AC77F100A4ECCE /* SandwichCrackMeSolutionUITests.m */,
+				55BD68E526AC77F100A4ECCE /* Info.plist */,
+			);
+			path = SandwichCrackMeSolutionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55BD68BD26AC77F000A4ECCE /* SandwichCrackMeSolution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BD68E826AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "SandwichCrackMeSolution" */;
+			buildPhases = (
+				55BD68BA26AC77F000A4ECCE /* Sources */,
+				55BD68BB26AC77F000A4ECCE /* Frameworks */,
+				55BD68BC26AC77F000A4ECCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SandwichCrackMeSolution;
+			productName = JetesFirstCrackme;
+			productReference = 55BD68BE26AC77F000A4ECCE /* SandwichCrackMeSolution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55BD68D326AC77F100A4ECCE /* SandwichCrackMeSolutionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BD68EB26AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "SandwichCrackMeSolutionTests" */;
+			buildPhases = (
+				55BD68D026AC77F100A4ECCE /* Sources */,
+				55BD68D126AC77F100A4ECCE /* Frameworks */,
+				55BD68D226AC77F100A4ECCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55BD68D626AC77F100A4ECCE /* PBXTargetDependency */,
+			);
+			name = SandwichCrackMeSolutionTests;
+			productName = JetesFirstCrackmeTests;
+			productReference = 55BD68D426AC77F100A4ECCE /* SandwichCrackMeSolutionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55BD68DE26AC77F100A4ECCE /* SandwichCrackMeSolutionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BD68EE26AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "SandwichCrackMeSolutionUITests" */;
+			buildPhases = (
+				55BD68DB26AC77F100A4ECCE /* Sources */,
+				55BD68DC26AC77F100A4ECCE /* Frameworks */,
+				55BD68DD26AC77F100A4ECCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55BD68E126AC77F100A4ECCE /* PBXTargetDependency */,
+			);
+			name = SandwichCrackMeSolutionUITests;
+			productName = JetesFirstCrackmeUITests;
+			productReference = 55BD68DF26AC77F100A4ECCE /* SandwichCrackMeSolutionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55BD68B626AC77F000A4ECCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					55BD68BD26AC77F000A4ECCE = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					55BD68D326AC77F100A4ECCE = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 55BD68BD26AC77F000A4ECCE;
+					};
+					55BD68DE26AC77F100A4ECCE = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 55BD68BD26AC77F000A4ECCE;
+					};
+				};
+			};
+			buildConfigurationList = 55BD68B926AC77F000A4ECCE /* Build configuration list for PBXProject "SandwichCrackMeSolution" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55BD68B526AC77F000A4ECCE;
+			productRefGroup = 55BD68BF26AC77F000A4ECCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55BD68BD26AC77F000A4ECCE /* SandwichCrackMeSolution */,
+				55BD68D326AC77F100A4ECCE /* SandwichCrackMeSolutionTests */,
+				55BD68DE26AC77F100A4ECCE /* SandwichCrackMeSolutionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55BD68BC26AC77F000A4ECCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55981CA426BC13EC004B2763 /* README.md in Resources */,
+				55BD68C826AC77F100A4ECCE /* Assets.xcassets in Resources */,
+				55BD68CB26AC77F100A4ECCE /* Main.storyboard in Resources */,
+				55981CA626BC16B1004B2763 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BD68D226AC77F100A4ECCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BD68DD26AC77F100A4ECCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55BD68BA26AC77F000A4ECCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BD68C626AC77F000A4ECCE /* ViewController.m in Sources */,
+				55BD68CE26AC77F100A4ECCE /* main.m in Sources */,
+				55BD68C326AC77F000A4ECCE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BD68D026AC77F100A4ECCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BD68D926AC77F100A4ECCE /* SandwichCrackMeSolutionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BD68DB26AC77F100A4ECCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BD68E426AC77F100A4ECCE /* SandwichCrackMeSolutionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55BD68D626AC77F100A4ECCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55BD68BD26AC77F000A4ECCE /* SandwichCrackMeSolution */;
+			targetProxy = 55BD68D526AC77F100A4ECCE /* PBXContainerItemProxy */;
+		};
+		55BD68E126AC77F100A4ECCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55BD68BD26AC77F000A4ECCE /* SandwichCrackMeSolution */;
+			targetProxy = 55BD68E026AC77F100A4ECCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55BD68C926AC77F100A4ECCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55BD68CA26AC77F100A4ECCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55BD68E626AC77F100A4ECCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55BD68E726AC77F100A4ECCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55BD68E926AC77F100A4ECCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SandwichCrackMeSolution/SandwichCrackMeSolution.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PB7SHXTJHG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SandwichCrackMeSolution/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.kimhauser.macos.SandwichCrackMeSolution;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55BD68EA26AC77F100A4ECCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SandwichCrackMeSolution/SandwichCrackMeSolution.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PB7SHXTJHG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SandwichCrackMeSolution/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.kimhauser.macos.SandwichCrackMeSolution;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55BD68EC26AC77F100A4ECCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PB7SHXTJHG;
+				INFOPLIST_FILE = JetesFirstCrackmeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.kimhauser.macos.JetesFirstCrackmeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandwichCrackMeSolution.app/Contents/MacOS/SandwichCrackMeSolution";
+			};
+			name = Debug;
+		};
+		55BD68ED26AC77F100A4ECCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PB7SHXTJHG;
+				INFOPLIST_FILE = JetesFirstCrackmeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.kimhauser.macos.JetesFirstCrackmeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandwichCrackMeSolution.app/Contents/MacOS/SandwichCrackMeSolution";
+			};
+			name = Release;
+		};
+		55BD68EF26AC77F100A4ECCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PB7SHXTJHG;
+				INFOPLIST_FILE = JetesFirstCrackmeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.kimhauser.macos.JetesFirstCrackmeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JetesFirstCrackme;
+			};
+			name = Debug;
+		};
+		55BD68F026AC77F100A4ECCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PB7SHXTJHG;
+				INFOPLIST_FILE = JetesFirstCrackmeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.kimhauser.macos.JetesFirstCrackmeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JetesFirstCrackme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55BD68B926AC77F000A4ECCE /* Build configuration list for PBXProject "SandwichCrackMeSolution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BD68E626AC77F100A4ECCE /* Debug */,
+				55BD68E726AC77F100A4ECCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BD68E826AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "SandwichCrackMeSolution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BD68E926AC77F100A4ECCE /* Debug */,
+				55BD68EA26AC77F100A4ECCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BD68EB26AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "SandwichCrackMeSolutionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BD68EC26AC77F100A4ECCE /* Debug */,
+				55BD68ED26AC77F100A4ECCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BD68EE26AC77F100A4ECCE /* Build configuration list for PBXNativeTarget "SandwichCrackMeSolutionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BD68EF26AC77F100A4ECCE /* Debug */,
+				55BD68F026AC77F100A4ECCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55BD68B626AC77F000A4ECCE /* Project object */;
+}

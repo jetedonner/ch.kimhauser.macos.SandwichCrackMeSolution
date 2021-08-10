@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ViewController buttonPressed:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "subStr3.length">
+            </PersistentString>
+            <PersistentString
+               value = "base64">
+            </PersistentString>
+            <PersistentString
+               value = "together.length">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController checkSandwichLic]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(esi / pow(2, 2))">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
