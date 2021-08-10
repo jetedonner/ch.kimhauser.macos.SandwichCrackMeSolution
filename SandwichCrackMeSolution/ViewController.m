@@ -13,6 +13,7 @@ NSString *dlCrackMeLink = @"https://reverse.put.as/wp-content/uploads/2010/05/1-
 NSString *dlCrackMeLinkAlt = @"http://kimhauser.ch/images/articles/CrackMes/Sandwich/1-Sandwich.zip";
 NSString *articleLink = @"http://kimhauser.ch/index.php/projects/crackme/sandwich-crackme";
 NSString *githubLink = @"https://github.com/jetedonner/ch.kimhauser.macos.SandwichCrackMeSolution";
+NSString *kimhauserChLink = @"http://kimhauser.ch";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -98,6 +99,7 @@ NSString *githubLink = @"https://github.com/jetedonner/ch.kimhauser.macos.Sandwi
 }
 
 - (IBAction)buttonGitHubPressed:(id)sender {
+    [self logMsg2Output:[NSString stringWithFormat:@"Opening CrackMe GitHub link: %@", githubLink]];
     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:githubLink]];
 }
 
@@ -107,6 +109,7 @@ NSString *githubLink = @"https://github.com/jetedonner/ch.kimhauser.macos.Sandwi
 }
 
 - (IBAction)buttonArticlePressed:(id)sender {
+    [self logMsg2Output:[NSString stringWithFormat:@"Opening CrackMe Article link: %@ (%@)", articleLink, kimhauserChLink]];
     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:articleLink]];
 }
 
